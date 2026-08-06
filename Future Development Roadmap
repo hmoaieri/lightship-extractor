@@ -1,0 +1,7 @@
+Future Development Roadmap
+Version	Features
+v1.0	Core extraction algorithm, validation, plotting, uncertainty quantification
+v1.1	Automated curve digitization using neural networks
+v1.2	3D weight distribution (transverse and vertical)
+v1.3	Real-time integration with onboard loading instruments
+v1.4	Web-based graphical user interface
