@@ -1,0 +1,16 @@
+lightship-extractor/
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
+├── example.py
+├── data/
+│   ├── sample_shear_force.csv
+│   ├── sample_section_area.csv
+│   └── sample_tanks.json
+├── src/
+│   ├── __init__.py
+│   └── lightship_extractor.py
+└── tests/
+    ├── __init__.py
+    └── test_extractor.py
