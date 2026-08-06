@@ -52,3 +52,17 @@ text
     git push -u origin main
 
     Replace YOUR_USERNAME with your actual GitHub username in the commands and README.md.
+
+
+
+
+
+Contact & Support
+
+    Authors: Dr. Hamid Moaieri
+
+    Affiliation: Department of MARINE ENG,IMAM KHOMEINI MARITIME UNIVERSITY
+
+    Email: H.MOAIERI@GMAIL.COM
+
+    Issues: Please use the GitHub issue tracker for bug reports and feature requests
