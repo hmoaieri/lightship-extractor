@@ -13,3 +13,42 @@ The method uses the fundamental relationship between shear force (S), buoyancy (
 git clone https://github.com/YOUR_USERNAME/lightship-extractor.git
 cd lightship-extractor
 pip install -e .
+Usage
+
+See example.py for a complete demonstration.
+Data Requirements
+
+    Shear force curve at standard stations
+
+    Submerged cross-sectional areas
+
+    Compartment layout (tanks, cargo holds)
+
+Citation
+
+If you use this code, please cite:
+[Your Paper Reference]
+text
+
+
+**4. Sample Data Files**
+- `data/sample_shear_force.csv`: Two columns: `Position, Shear_Force`
+- `data/sample_section_area.csv`: Two columns: `Position, Section_Area`
+- `data/sample_tanks.json`: JSON array of compartment objects
+
+---
+
+### Instructions to Upload to GitHub
+
+1.  **Create a new repository** on GitHub (do not initialize with README, .gitignore, or license).
+2.  **On your local machine**, create the project folder with the structure above.
+3.  **Run these commands** in the project folder:
+    ```bash
+    git init
+    git add .
+    git commit -m "Initial commit: Full implementation of lightship weight extractor"
+    git branch -M main
+    git remote add origin https://github.com/YOUR_USERNAME/lightship-extractor.git
+    git push -u origin main
+
+    Replace YOUR_USERNAME with your actual GitHub username in the commands and README.md.
